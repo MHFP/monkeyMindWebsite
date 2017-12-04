@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files
+@import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
+*/
+
+@import "./styles/reset.scss";
+@import "./styles/colorSchema.scss";
+@import "./styles/header.scss";
+@import "./styles/footer.scss";
+@import "./styles/layout.scss";
+@import "./styles/main.scss";
+@import "./styles/animation.scss";

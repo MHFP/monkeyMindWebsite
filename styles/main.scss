@@ -1,0 +1,70 @@
+hero{
+  margin-top: 10px;
+  margin-bottom: 90px;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#brandHero{
+  display: flex;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  flex-flow: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: avenir;
+  color: rgba(50,10,50,.5);
+}
+
+.shoutout-1{
+  margin-bottom: 5rem;
+  font-size: 5rem;
+
+}
+
+.shoutout-2{
+  font-size: 2rem;
+}
+
+
+services{
+  margin-top: 10px;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: grey;
+}
+
+references{
+  margin-top: 10px;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+}
+
+bios{
+  margin-top: 10px;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+profile{
+  display: flex;
+  background: grey;
+  height: 300px;
+  width: 300px;
+}
