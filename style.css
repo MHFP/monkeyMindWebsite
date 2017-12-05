@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+website{
+  display: none;
+}
+
+#introAnimation{
+    position: absolute;
+    overflow: hidden;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/Users/markus/Documents/DevProject/monkeyMind/resources/images/wallMouseHoleImage.png");
+    font-size: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Reenie Beanie', cursive;
+  }
+
+#signature{
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  position: absolute;
+  opacity: 0.9;
+  bottom: 0;
+  right: 1rem;
+  margin-left: 90%;
+  margin-bottom: 1rem;
+}
+
+.brandClaim{
+  width: 100%;
+  color: pink;
+  opacity: 0.3;
+  font-size: 3.5rem;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 7rem;
+}
+
+
+website{
+background-image: linear-gradient(to bottom, rgba(249, 187, 197, 0.25) 0%, #f68084 100%);
+}
+
+body{
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Cutive Mono', monospace;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Libre Barcode 39 Extended', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Syncopate', sans-serif;
+}
+
+footer{
+  bottom: 0px;
+  height: 200px;
+  background-color: rgba(128,128,128,0.9);
+  width: 100%;
+}
+
+footer h1{
+  position: absolute;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin-left: 70%;
+  margin-top: 40px;
+  // background-color: rgba(255,255,255,0.4);
+  padding: 1%;
+}
+
+header{
+  display: flex;
+  background-image: url("/Users/markus/Documents/DevProject/monkeyMind/resources/images/banana.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 200px;
+  color: white;
+}
+
+nav{
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-family: avenir;
+  background-color: rgba(250,250,250,0.5);
+  color: seablue;
+  font-family: monospace;
+}
+
+nav span{
+  flex-flow: column;
+  padding: 0.8rem;
+}
+
+
+#logo{
+  overflow: hidden;
+
+}
+
+img{
+  width: 80px;
+
+}
+
+
+a{
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navigation{
+  margin-right: 20px;
+}
+
+.carousel-inner p{
+font-size: 2rem;
+}
+
+.teaserPic{
+  width: 20vw;
+}
+
+.jumbotron{
+  min-height: 20vh;
+}
+
+hero{
+  margin-bottom: 90px;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+#brandHero{
+  display: flex;
+  height: 400px;
+  width: 100%;
+  flex-flow: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: avenir;
+  color: rgba(50,10,50,.5);
+}
+
+.shoutout-1{
+  margin-bottom: 5rem;
+  font-size: 5rem;
+
+}
+
+.shoutout-2{
+  font-size: 2rem;
+}
+
+services{
+  margin-top: 10px;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: grey;
+}
+
+missionStatement{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+missionStatement p{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+
+bios{
+  margin-top: 10px;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-color: white;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+}
+
+bio-container{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+profile{
+  display: flex;
+  flex-flow: wrap;
+  background: white;
+  height: 450px;
+}
+
+.card{
+  width: 20rem;
+}
