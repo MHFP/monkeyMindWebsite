@@ -2,55 +2,137 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Cinzel:400,700,900|Cutive+Mono|Gloria+Hallelujah|Indie+Flower|Libre+Barcode+39+Extended|Permanent+Marker|Poiret+One|Press+Start+2P|Quicksand:300,400,500,700|Reenie+Beanie|Roboto+Slab:100,300,400,700|Shadows+Into+Light|Syncopate:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./style.scss">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
     <title>monkeyMind</title>
-    <script src="/Users/markus/Documents/DevProject/monkeyMind/resources/javascripts/monkeyMind.js"></script>
-
   </head>
-  <body>
-    <header>
-      <div id="logo">
-        <img src="/Users/markus/Documents/DevProject/monkeyMind/resources/images/monkeyMind.png" alt="logo monkeyMind">
+  <body onclick="intro()">
+    <intro id="introAnimation">
+      <h1 id="signature">Digital Marketing by monkeyMind</h1>
+      <div class="brandClaim">
+        <p class="animated bounceInDown">LESS OF THE SAME LAME</p>
+        <p class="animated bounceInLeft">STRANGE AND WONDERFUL</p>
+        <p class="animated bounceInRight" >DANCE MORE DANCES. TAKE MORE CHANCES.</p>
       </div>
-      <nav>
-        <span class="navigation"><a href="">Home</a></span>
-        <span class="navigation"><a href="">Services</a></span>
-        <span class="navigation"><a href="">References</a></span>
-        <span class="navigation"><a href="">Bios</a></span>
-    </nav>
-    </header>
-    <div class="wrapper">
-      <hero>
-        <div id="brandHero">
-          <h1 class="shoutout-1">Digital Marketing</h1>
-          <h2 class="shoutout-2">by monkeyMind</h1>
+    </intro>
+    <website id="website">
+      <header>
+        <nav>
+          <span class="navigation"><a href="">What we offer</a></span>
+          <span class="navigation"><a href="">Our Work</a></span>
+          <span class="navigation"><a href="">Team</a></span>
+      </nav>
+      </header>
+      <hero class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="teaserPic" class="d-block w-100" src="./resources/images/email.svg" alt="eMail Marketing">
+                  <h1>eMail Marketing</h1>
+                </div>
+                <div class="carousel-item">
+                  <img class="teaserPic" class="d-block w-100" src="./resources/images/megaphone.svg" alt="Content Marketing">
+                  <h1>Content Marketing</h1>
+                </div>
+                <div class="carousel-item">
+                  <img class="teaserPic" class="d-block w-100" src="./resources/images/WWW.svg" alt="Content Marketing">
+                  <h1>Web Design</h1>
+                </div>
+                <div class="carousel-item">
+                  <img class="teaserPic" class="d-block w-100" src="./resources/images/target.svg" alt="Content Marketing">
+                  <h1>UX/UI Design</h1>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <canvas class='connecting-dots'></canvas>
       </hero>
-      <services>
-        These are our services
-      </services>
-      <references>
-        Here you can find references
-      </references>
+      <missionStatement>
+        <h1>What we want.</h1>
+        <p>We are aware of the responsibility towards our customers. They are our partners. We are continuously looking for creative approaches, to create not only an operational value, but also a social one for them. Our high standards require a deep understanding of the product and the needs of our partners in order to find a perfectly fitting communication strategy.
+        </p>
+      </missionStatement>
       <bios>
-        This is us!
-        <profile>
-          Sophie
-        </profile>
-        <profile>
-          Markus
-        </profile>
-        <profile>
-          Andrew
-        </profile>
-      </bios>
+          <h1>The people behind monkeyMind</h1>
+          <bio-container>
+            <profile>
+              <div class="card">
+    <img class="card-img-top" src="./resources/images/sophie.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title">Sophie</h2>
+      <p class="card-text">Sophie is passionate about Content Marketing. She studies Journalism and has two degrees: Media Production and Political Science.</p>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+        Read more
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Sophie Himmelfreundpointner</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+
+Ever since Sophie has left her small hometown in Upper Austria, she’s been looking for the real deal. After wading through the worlds of political science, movie productions, gastronomy and editing, she’s found herself in the field of marketing. At the moment, she’s about to finish her masters in communications, is organizing festivals in the surroundings of Vienna and tames her monkey mind by being a yoga instructor in several studios in Vienna.
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <footer>
-      <span><a href="">Contact</a></span>
-      <span><a href="">Impressum</a></span>
-    </footer>
+  </div>
+            </profile>
+
+            <profile>
+              <div class="card">
+    <img class="card-img-top" src="./resources/images/profilePicMarkus.png" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title">Markus</h2>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+    </div>
+
+            </profile>
+            <profile>
+              <div class="card">
+    <img class="card-img-top" src="./resources/images/andrewPic.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title">Andrew</h2>
+      <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+
+            </profile>
+          </bio-container>
+        </bios>
+
+      <footer>
+        <a href=""><h1>monkeyMind KG</h1></a>
+      </footer>
+    </website>
+
+    <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+    <script src="./resources/javascripts/introAnimation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
   </body>
-
-
 </html>
